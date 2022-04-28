@@ -155,7 +155,7 @@ void loop() {
           Serial.println(FREQUENCY);
           Serial.println("Vol: "+String(WATER)+" L/M");
           Serial.println("Total: "+String(TOTAL)+" L");
-          rxChar.writeValue("[Flow] " + String(WATER) );
+          rxChar.writeValue("[Flow] " + String(LS) );
         }
       }
       previousMicros = micros();
